@@ -35,7 +35,7 @@
 .header .logo {
   display: inline-block;
   width: 200px;
-  padding: 36px 32px 0;
+  margin-right: 5%;
 }
 .header .gnb {
   display: flex;
@@ -64,7 +64,7 @@
 .header .gnb .dep1 > li {
   display: inline-block;
   position: relative;
-  height: 60px;
+  /* height: 60px; */
   padding: 36px 0px 0;
   font-size: 1.25rem;
 }
@@ -78,30 +78,32 @@
   transition: color 0.2s linear;
 }
 
-.header .dep1 > li a {
+.header .dep1 > li > a {
   display: block;
-  transition: all 0.3s;
-}
 
-.header .dep1 > li a:hover {
-  background: #009688;
-  color: #fff;
+  height: 100%;
+}
+.header .dep2 > li:hover {
+  background: #ccc;
+  transition: all 0.3s;
 }
 
 .header .dep2 {
   z-index: 1;
   width: 100%;
-
-  padding-top: 30px;
   background: #fff;
   display: none;
 }
-.header .gnb .dep2 li {
-  margin-bottom: 20px;
+.header .gnb .dep2 > li {
+  padding: 20px 0;
   font-size: 1.25rem;
   font-family: "Pretendard Variable";
 }
-
+.header .gnb .dep2 > li > a {
+  display: block;
+  transition: all 0.3s;
+  height: 100%;
+}
 /*모바일 header*/
 .mobile-header {
   width: 100%;
@@ -231,7 +233,6 @@
   width: 100%;
   max-width: 1920px;
   margin: 0 auto;
-  margin-top: 60px;
   position: relative;
 }
 .main-visual .main-visual-bg {
