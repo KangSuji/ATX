@@ -110,10 +110,45 @@
   max-width: 1920px;
   margin: 0 auto;
   margin-top: 60px;
+  position: relative;
 }
-.main-visual img {
+.main-visual .main-visual-bg {
   width: 100%;
 }
+.main-visual-scroll {
+  margin: 0 auto;
+  text-align: center;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  right: 0;
+  animation: bounce 0.8s infinite linear;
+  cursor: pointer;
+}
+@keyframes bounce {
+  0% {
+    bottom: 50px;
+  }
+  30% {
+    bottom: 60px;
+  }
+
+  50% {
+    bottom: 70px;
+  }
+
+  70% {
+    bottom: 80px;
+  }
+  90% {
+    bottom: 60px;
+  }
+
+  100% {
+    bottom: 50px;
+  }
+}
+
 /* main-bussiness */
 .main-business {
   width: 100%;
