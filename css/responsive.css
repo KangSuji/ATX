@@ -1,0 +1,20 @@
+@media (max-width: 1468px) {
+  .rotate-text {
+    right: 0;
+  }
+}
+@media (max-width: 1165px) {
+  .navigation,
+  .openBtn {
+    display: none;
+  }
+  .header {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+  }
+  .gnb {
+    display: none;
+  }
+}

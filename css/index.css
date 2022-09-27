@@ -37,15 +37,15 @@
   width: 200px;
   padding: 36px 32px 0;
 }
-.gnb {
+.header .gnb {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.dep1 {
+.header .dep1 {
   display: inline-block;
 }
-.dep1 > li {
+.header .dep1 > li {
   position: relative;
   float: left;
   width: 150px;
@@ -61,14 +61,14 @@
   text-decoration: none;
 }
 
-.gnb .dep1 > li {
+.header .gnb .dep1 > li {
   display: inline-block;
   position: relative;
   height: 60px;
   padding: 36px 0px 0;
   font-size: 1.25rem;
 }
-.gnb .dep1 > a {
+.header .gnb .dep1 > a {
   display: inline-block;
   width: 100%;
   height: 100%;
@@ -78,17 +78,17 @@
   transition: color 0.2s linear;
 }
 
-.dep1 > li a {
+.header .dep1 > li a {
   display: block;
   transition: all 0.3s;
 }
 
-.dep1 > li a:hover {
+.header .dep1 > li a:hover {
   background: #009688;
   color: #fff;
 }
 
-.dep2 {
+.header .dep2 {
   z-index: 1;
   width: 100%;
 
@@ -96,12 +96,134 @@
   background: #fff;
   display: none;
 }
-.gnb .dep2 li {
+.header .gnb .dep2 li {
   margin-bottom: 20px;
   font-size: 1.25rem;
   font-family: "Pretendard Variable";
 }
 
+/*모바일 header*/
+.mobile-header {
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 99;
+  height: 80px;
+  display: none;
+}
+.mobile-header .logo {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  box-sizing: border-box;
+  z-index: 9;
+}
+.mobile-header .logo img {
+  width: 80%;
+  vertical-align: middle;
+}
+.open_btn {
+  display: block;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 0;
+  box-sizing: border-box;
+  z-index: 9;
+  cursor: pointer;
+  width: 54px;
+}
+.open_btn img {
+  max-width: 100%;
+}
+.mobile-gnb_wrap {
+  position: relative;
+  text-align: center;
+}
+
+.mobile-gnb {
+  position: absolute;
+  width: 100%;
+  height: auto;
+  right: 0;
+  left: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
+  transition: all 0.5s ease-in-out;
+  background-color: #fff;
+  visibility: visible;
+}
+
+.mobile-header ul,
+.mobile-header li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.mobile-header a {
+  color: #000;
+  text-decoration: none;
+}
+.mobile-gnb .dep1 > li {
+  display: block;
+  position: relative;
+  font-size: 2rem;
+  padding: 20px 0;
+}
+
+.mobile-gnb .dep1 {
+  padding: 80px 0;
+}
+.mobile-gnb .dep1 > li a.dep1_a {
+  display: block;
+  width: 100%;
+  padding: 24px 0;
+}
+
+.mobile-gnb .dep2 {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  display: none;
+}
+.mobile-gnb .dep2 li {
+  padding: 20px 0;
+  font-size: 1.25rem;
+  color: #666;
+}
+.mobile-gnb .dep2 li a {
+  color: inherit;
+}
+
+.mobile-gnb.hide {
+  right: -300%;
+  background-color: transparent;
+  visibility: hidden;
+}
+
+.mobile-bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  right: 0;
+  background-color: #000;
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+  z-index: -1;
+}
+
+.mobile-bg.hide {
+  right: -300%;
+  visibility: hidden;
+  display: none;
+}
 /* content ===============================================*/
 
 /* main-visual */
