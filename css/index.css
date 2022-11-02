@@ -2,12 +2,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap");
-/* body {
+/* 
   font-family: "Pretendard Variable";
   font-family: "Noto Serif KR", serif;
   font-family: "Merriweather", serif;
   font-family: "Montserrat", sans-serif;
-} */
+*/
 .wrap {
   width: 100%;
   max-width: 1920px;
@@ -60,7 +60,22 @@
   color: #000;
   text-decoration: none;
 }
-
+.header .gnb .dep1 > li:hover .dep1_a:before {
+  width: 100%;
+}
+.gnb .dep1 .dep1_a:before {
+  display: block;
+  position: absolute;
+  top: 90px;
+  left: 50%;
+  width: 0;
+  height: 2px;
+  background-color: #1d40a4;
+  content: "";
+  margin-top: -2px;
+  transform: translateX(-50%);
+  transition: width 0.2s ease-in-out;
+}
 .header .gnb .dep1 > li {
   display: inline-block;
   position: relative;
@@ -77,10 +92,8 @@
   color: #fff;
   transition: color 0.2s linear;
 }
-
 .header .dep1 > li > a {
   display: block;
-
   height: 100%;
 }
 .header .dep2 > li:hover {
@@ -421,6 +434,7 @@
 .main-certification-left-inner .next {
   width: 100%;
   max-width: 48px;
+  cursor: pointer;
 }
 .main-certification-left-inner .next {
   margin-left: 16px;
