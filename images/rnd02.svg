@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="181" viewBox="0 0 212 181">
+  <g id="rnd02" transform="translate(-1014 -1744)">
+    <text id="신규_아이템_개발" data-name="신규 아이템 개발" transform="translate(1120 1921)" fill="#666" font-size="16" font-family="Pretendard-Regular, Pretendard"><tspan x="-52" y="0">신규 아이템 개발</tspan></text>
+    <g id="그룹_21" data-name="그룹 21" transform="translate(-538.25 2665.25) rotate(-90)">
+      <line id="선_3" data-name="선 3" x2="31.5" transform="translate(769 1657.75)" fill="none" stroke="#333" stroke-width="2"/>
+      <path id="다각형_1" data-name="다각형 1" d="M5,0l5,8H0Z" transform="translate(803.5 1653) rotate(90)" fill="#333"/>
+    </g>
+    <g id="그룹_20" data-name="그룹 20" transform="translate(24 -47)">
+      <g id="타원_12" data-name="타원 12" transform="translate(990 1791)" fill="none" stroke="#d1d1d1" stroke-width="1">
+        <circle cx="62" cy="62" r="62" stroke="none"/>
+        <circle cx="62" cy="62" r="61.5" fill="none"/>
+      </g>
+      <g id="타원_10" data-name="타원 10" transform="translate(1078 1791)" fill="none" stroke="#d1d1d1" stroke-width="1">
+        <circle cx="62" cy="62" r="62" stroke="none"/>
+        <circle cx="62" cy="62" r="61.5" fill="none"/>
+      </g>
+      <text id="제조업" transform="translate(1052 1834)" fill="#222" font-size="16" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-20" y="0">제조업</tspan></text>
+      <text id="제조업-2" data-name="제조업" transform="translate(1140 1834)" fill="#222" font-size="16" font-family="Pretendard-SemiBold, Pretendard" font-weight="600"><tspan x="-20" y="0">제조업</tspan></text>
+      <circle id="타원_13" data-name="타원 13" cx="14" cy="14" r="14" transform="translate(1038 1850)" fill="#5cbdef"/>
+      <circle id="타원_11" data-name="타원 11" cx="14" cy="14" r="14" transform="translate(1126 1850)" fill="#5cbdef"/>
+      <circle id="타원_14" data-name="타원 14" cx="14" cy="14" r="14" transform="translate(1082 1850)" fill="#ef5c6b"/>
+    </g>
+  </g>
+</svg>

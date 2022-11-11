@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="212" height="195" viewBox="0 0 212 195">
+  <g id="rnd03" transform="translate(-1334 -1730)">
+    <g id="그룹_23" data-name="그룹 23" transform="translate(0 -85)">
+      <g id="타원_12" data-name="타원 12" transform="translate(1334 1886)" fill="none" stroke="#d1d1d1" stroke-width="1">
+        <circle cx="62" cy="62" r="62" stroke="none"/>
+        <circle cx="62" cy="62" r="61.5" fill="none"/>
+      </g>
+      <g id="타원_10" data-name="타원 10" transform="translate(1422 1886)" fill="none" stroke="#d1d1d1" stroke-width="1">
+        <circle cx="62" cy="62" r="62" stroke="none"/>
+        <circle cx="62" cy="62" r="61.5" fill="none"/>
+      </g>
+      <g id="타원_15" data-name="타원 15" transform="translate(1378 1815)" fill="none" stroke="#d1d1d1" stroke-width="1">
+        <circle cx="62" cy="62" r="62" stroke="none"/>
+        <circle cx="62" cy="62" r="61.5" fill="none"/>
+      </g>
+      <circle id="타원_13" data-name="타원 13" cx="14" cy="14" r="14" transform="translate(1382 1945)" fill="#5cbdef"/>
+      <circle id="타원_11" data-name="타원 11" cx="14" cy="14" r="14" transform="translate(1470 1945)" fill="#5cbdef"/>
+      <circle id="타원_16" data-name="타원 16" cx="14" cy="14" r="14" transform="translate(1426 1853)" fill="#5cbdef"/>
+      <circle id="타원_14" data-name="타원 14" cx="14" cy="14" r="14" transform="translate(1426 1945)" fill="#ef5c6b"/>
+      <circle id="타원_17" data-name="타원 17" cx="14" cy="14" r="14" transform="translate(1398 1895)" fill="#ef5c6b"/>
+      <circle id="타원_18" data-name="타원 18" cx="14" cy="14" r="14" transform="translate(1454 1895)" fill="#ef5c6b"/>
+      <circle id="타원_19" data-name="타원 19" cx="14" cy="14" r="14" transform="translate(1426 1909)" fill="#ffcb21"/>
+    </g>
+  </g>
+</svg>
